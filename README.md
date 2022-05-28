@@ -3,3 +3,6 @@ Jam Garden scrum match!  Our capsule hero person must use gravity to make it to 
 
 ## Practice Jam
 This jam is a chance to practice stuff you might not get to practice if we actually cared about finishing the jam!
+
+## GitHub Actions
+is a pain
