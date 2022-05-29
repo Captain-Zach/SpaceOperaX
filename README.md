@@ -7,3 +7,5 @@ This jam is a chance to practice stuff you might not get to practice if we actua
 ## GitHub Actions
 This jam uses GitHub Actions and GameCI for continuous integration.  You can find the current test version of the game here: https://professorcowboy.itch.io/flappitygrav
 
+## Current ToDo list
+Get starfield working on test build
