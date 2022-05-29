@@ -43,4 +43,4 @@ jobs:
             CHANNEL: win
             ITCH_GAME: flappitygrav
             ITCH_USER: Professor
-            PACKAGE: build/${{ matrix.targetPlatform }}
+            PACKAGE: build/${{ matrix.targetPlatform }}/Build-${{ matrix.targetPlatform }}
