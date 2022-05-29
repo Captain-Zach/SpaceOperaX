@@ -37,3 +37,10 @@ jobs:
         with:
           name: Build-${{ matrix.targetPlatform }}
           path: build/${{ matrix.targetPlatform }}
+      - uses: manleydev/butler-publish-itchio-action@master
+          env:
+            BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
+            CHANNEL: win
+            ITCH_GAME: flappitygrav
+            ITCH_USER: Professor
+            PACKAGE: build/${{ matrix.targetPlatform }}
