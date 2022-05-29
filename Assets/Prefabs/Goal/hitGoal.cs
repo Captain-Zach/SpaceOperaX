@@ -7,7 +7,7 @@ public class hitGoal : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.name == "Frog")
+        if(other.name == "Shuttle")
         {
             Debug.Log("You win!");
             Scene currentLevel = SceneManager.GetActiveScene();
