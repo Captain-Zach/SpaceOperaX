@@ -7,12 +7,12 @@ public class hitGoal : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.name == "Frog")
+        if(other.name == "Shuttle")
         {
             Debug.Log("You win!");
             Scene currentLevel = SceneManager.GetActiveScene();
             other.enabled = false;
-            FindObjectOfType<GameManager>().GoNextLevel();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
