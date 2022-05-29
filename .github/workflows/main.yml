@@ -40,7 +40,7 @@ jobs:
       - uses: manleydev/butler-publish-itchio-action@master
         env:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
-          CHANNEL: win
+          CHANNEL: windows
           ITCH_GAME: flappitygrav
           ITCH_USER: professorcowboy
           PACKAGE: build/${{ matrix.targetPlatform }}
