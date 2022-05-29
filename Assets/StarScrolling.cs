@@ -4,17 +4,20 @@ using UnityEngine;
 
 public class StarScrolling : MonoBehaviour
 {
-    public MeshRenderer meshRenderer;
+    private MeshRenderer meshRenderer;
+    private Material mat;
     // Start is called before the first frame update
     void Start()
     {
         meshRenderer = GetComponent<MeshRenderer>();
-        meshRenderer.material.GetTextureOffset(0);
+        mat = meshRenderer.materials[0];
+        // Debug.Log(mat.mainTextureOffset);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        Debug.Log("Mat offset: " + mat.mainTextureOffset);
     }
 }
