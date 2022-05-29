@@ -42,5 +42,5 @@ jobs:
           BUTLER_CREDENTIALS: ${{ secrets.BUTLER_API_KEY }}
           CHANNEL: win
           ITCH_GAME: flappitygrav
-          ITCH_USER: Professor
+          ITCH_USER: professorcowboy
           PACKAGE: build/${{ matrix.targetPlatform }}/Build-${{ matrix.targetPlatform }}
