@@ -205,6 +205,24 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &846404488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2745500639846519749, guid: d6061bf7e74d83941afdfcd779cfe7d1, type: 3}
+  m_PrefabInstance: {fileID: 8248945645238868476}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &846404493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 846404488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0d0e80a377c3294fa6623d3325c1336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
 --- !u!1001 &998744402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -553,6 +571,10 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6641952387146692315, guid: d6061bf7e74d83941afdfcd779cfe7d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641952387146692315, guid: d6061bf7e74d83941afdfcd779cfe7d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -590,6 +612,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6641952387146692315, guid: d6061bf7e74d83941afdfcd779cfe7d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6641952387146692315, guid: d6061bf7e74d83941afdfcd779cfe7d1, type: 3}
+      propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
