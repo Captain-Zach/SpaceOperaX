@@ -5,4 +5,5 @@ Jam Garden scrum match!  Our capsule hero person must use gravity to make it to 
 This jam is a chance to practice stuff you might not get to practice if we actually cared about finishing the jam!
 
 ## GitHub Actions
-is a pain
+This jam uses GitHub Actions and GameCI for continuous integration.  You can find the current test version of the game here: https://professorcowboy.itch.io/flappitygrav
+
