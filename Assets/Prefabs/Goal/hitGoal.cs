@@ -12,7 +12,7 @@ public class hitGoal : MonoBehaviour
             Debug.Log("You win!");
             Scene currentLevel = SceneManager.GetActiveScene();
             other.enabled = false;
-            FindObjectOfType<GameManager>().GoNextLevel();
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }
