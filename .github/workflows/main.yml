@@ -1,6 +1,8 @@
 name: Build and Deploy to test project
 on: 
-  workflow_dispatch: {}
+  push:
+    branches:
+      - mvp
 jobs:
   buildForAllSupportedPlatforms:
     name: Build for ${{ matrix.targetPlatform }}
